@@ -1,0 +1,13 @@
+{
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "07 - Lessons",
+  "attachmentFolderPath": "Attachments",
+  "showUnsupportedFiles": false,
+  "showInlineTitle": true,
+  "readableLineLength": true,
+  "strictLineBreaks": false,
+  "autoConvertHtml": true,
+  "defaultViewMode": "source",
+  "livePreview": true
+}
