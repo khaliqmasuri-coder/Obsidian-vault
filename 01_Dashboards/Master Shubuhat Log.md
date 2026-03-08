@@ -20,7 +20,26 @@ tags:
 - Assign a **SH-XXX** code immediately.
 - Do not close until written resolution is recorded.
 
-## Aqidah
+## Fast Capture (Task Format for Dashboard Automation)
+
+- [ ] SH-001 Subject:: aqidah Lesson::  Source::  Doubt::  Resolution::  #shubhah #open
+- [ ] SH-002 Subject:: fiqh Lesson::  Source::  Doubt::  Resolution::  #shubhah #open
+- [ ] SH-003 Subject:: tafsir Lesson::  Source::  Doubt::  Resolution::  #shubhah #open
+- [ ] SH-004 Subject:: hadith Lesson::  Source::  Doubt::  Resolution::  #shubhah #open
+- [ ] SH-005 Subject:: adab Lesson::  Source::  Doubt::  Resolution::  #shubhah #open
+
+## Open Shubuhat (Auto - Dataview)
+
+```dataview
+TASK
+FROM "01_Dashboards"
+WHERE contains(tags, "#shubhah") AND !completed
+SORT text ASC
+```
+
+## Full Reference Tables (By Subject)
+
+### Aqidah
 
 | Ref | Shubhah (precise) | Source | Resolution | Status |
 |---|---|---|---|---|
@@ -30,7 +49,7 @@ tags:
 | SH-004 |  |  |  | Open |
 | SH-005 |  |  |  | Open |
 
-## Fiqh
+### Fiqh
 
 | Ref | Shubhah (precise) | Source | Resolution | Status |
 |---|---|---|---|---|
@@ -40,7 +59,7 @@ tags:
 | SH-004 |  |  |  | Open |
 | SH-005 |  |  |  | Open |
 
-## Tafsir
+### Tafsir
 
 | Ref | Shubhah (precise) | Source | Resolution | Status |
 |---|---|---|---|---|
@@ -50,7 +69,7 @@ tags:
 | SH-004 |  |  |  | Open |
 | SH-005 |  |  |  | Open |
 
-## Hadith
+### Hadith
 
 | Ref | Shubhah (precise) | Source | Resolution | Status |
 |---|---|---|---|---|
@@ -60,7 +79,7 @@ tags:
 | SH-004 |  |  |  | Open |
 | SH-005 |  |  |  | Open |
 
-## Adab
+### Adab
 
 | Ref | Shubhah (precise) | Source | Resolution | Status |
 |---|---|---|---|---|

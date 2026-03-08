@@ -31,6 +31,12 @@ tags:
 - [ ] **Rapid Review** (<=30 min): Speed Spine -> Masa'il -> Tatbiq
 - [ ] **Deep Dive**: full detail + source tracing
 
+## Step 2.5 - Lesson Target
+
+- Target lesson note name:
+- Subject index: [[00 Subjects Hub]]
+- Planned output (one sentence):
+
 ## Step 3 - Muqaddimat (Prerequisite Check)
 
 - Prior lesson mastered? **Y/N**
@@ -39,4 +45,10 @@ tags:
 
 > [!warning]
 > If any answer is **No**, stop and repair prerequisites first.
+
+## Start Gate
+
+- [ ] Heart present enough to receive knowledge.
+- [ ] Prerequisite foundation is stable.
+- [ ] Correct study mode selected.
 

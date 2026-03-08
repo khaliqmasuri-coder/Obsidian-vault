@@ -9,6 +9,8 @@ tags:
 
 # Daily Study Engine (20-minute minimum)
 
+Use [[Daily Study Session Template]] for execution logging.
+
 ## Non-Negotiable Daily Block
 
 | Minutes | Activity | Tool | Duration | Done |

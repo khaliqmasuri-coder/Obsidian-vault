@@ -9,19 +9,68 @@ tags:
 
 # Master Learning Dashboard
 
-> 30-second orientation page before every study session.
+> 30-second orientation before every study session.
 
-## Subject Progress
+## Control Panel
 
-| Subject | Current Text | Lesson # / Total | Fahm (1-4) | Last Reviewed | Next Review |
-|---|---|---:|---:|---|---|
-| Aqidah |  |  /  |  |  |  |
-| Fiqh |  |  /  |  |  |  |
-| Tafsir |  |  /  |  |  |  |
-| Hadith |  |  /  |  |  |  |
-| Adab |  |  /  |  |  |  |
+- [[Islamic Science Framework Hub]]
+- [[Pre-Lesson Protocol]]
+- [[Core Lesson Template]]
+- [[Weekly Review Protocol]]
+- [[Master Shubuhat Log]]
+- [[Conflict Register]]
+- [[Khata Log]]
 
-## This Week's Priority Lessons
+---
+
+## Subject Progress (Auto - Dataview)
+
+```dataview
+TABLE file.link AS Lesson, subject AS Subject, level AS Level, lesson_no AS "#", fahm AS Fahm, status AS Status
+FROM "05_Lessons"
+WHERE type = "lesson"
+SORT subject ASC, lesson_no DESC
+```
+
+## Active Lesson Queue (Auto - Dataview)
+
+```dataview
+TABLE file.link AS Lesson, subject AS Subject, level AS Level, lesson_no AS "#", mode AS Mode, fahm AS Fahm, next_review AS "Next Review", status AS Status
+FROM "05_Lessons"
+WHERE type = "lesson" AND status != "complete"
+SORT next_review ASC, subject ASC, lesson_no ASC
+```
+
+## Reviews Due Today (Auto - Dataview)
+
+```dataview
+TABLE file.link AS Lesson, subject AS Subject, lesson_no AS "#", fahm AS Fahm, next_review AS "Next Review"
+FROM "05_Lessons"
+WHERE type = "lesson" AND next_review AND date(next_review) <= date(today) AND status != "complete"
+SORT next_review ASC
+```
+
+## Lessons Below Fahm 3 (Auto - Dataview)
+
+```dataview
+TABLE file.link AS Lesson, subject AS Subject, lesson_no AS "#", fahm AS Fahm, status AS Status
+FROM "05_Lessons"
+WHERE type = "lesson" AND fahm < 3 AND status != "complete"
+SORT subject ASC, lesson_no ASC
+```
+
+## Open Shubuhat / Conflict Tasks (Auto - Dataview)
+
+```dataview
+TASK
+FROM ""
+WHERE !completed AND (contains(tags, "#shubhah") OR contains(tags, "#conflict"))
+SORT file.name ASC
+```
+
+---
+
+## This Week's Priority Lessons (Manual Planning)
 
 | Subject | Lesson / Topic | Priority (Green/Yellow/Black) | Reason | Mode (First/Rapid/Deep) | Status |
 |---|---|---|---|---|---|
@@ -31,7 +80,7 @@ tags:
 |  |  |  |  |  | ☐ |
 |  |  |  |  |  | ☐ |
 
-## Open Issues (Resolve Before Advancing)
+## Open Issues (Manual Override)
 
 | Type | Ref | Subject/Lesson | Referred To | Resolved |
 |---|---|---|---|---|

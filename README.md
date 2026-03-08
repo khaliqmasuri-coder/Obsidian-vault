@@ -22,17 +22,30 @@ It is structured as a practical vault system, not a raw PDF dump, so you can imm
 - `02_Templates/`
   - `Pre-Lesson Protocol.md`
   - `Core Lesson Template.md`
+  - `Daily Study Session Template.md`
   - `Subject Modules.md`
   - `Sanad Registry.md`
   - `Arabic Technical Vocabulary Builder.md`
   - `Khilaf and Tahqiq Template.md`
   - `Weekly Review Protocol.md`
+- `04_Subjects/`
+  - `00 Subjects Hub.md`
+  - `Aqidah Index.md`
+  - `Fiqh Index.md`
+  - `Tafsir Index.md`
+  - `Hadith Index.md`
+  - `Adab Index.md`
 - `03_Reference/`
   - `Color System.md`
   - `Recommended Texts Pathway.md`
   - `Study Engine and Anki System.md`
   - `Level Gates and 90-Day Challenge.md`
   - `Hybrid Paper-Digital Workflow.md`
+  - `Obsidian Setup and Automation.md`
+  - `Lesson Metadata Schema.md`
+  - `Execution SOP.md`
+- `05_Lessons/`
+  - `README.md` (store all lesson notes here)
 
 ## How To Use In Obsidian
 
@@ -41,10 +54,12 @@ It is structured as a practical vault system, not a raw PDF dump, so you can imm
 3. Pin `[[Master Dashboard]]` and `[[Core Lesson Template]]`.
 4. For each lesson:
    - Run `[[Pre-Lesson Protocol]]`
-   - Duplicate `[[Core Lesson Template]]`
+   - Duplicate `[[Core Lesson Template]]` into `05_Lessons/`
    - Append the relevant section from `[[Subject Modules]]`
-5. Log all unresolved doubts in `[[Master Shubuhat Log]]` and all apparent conflicts in `[[Conflict Register]]`.
-6. Run `[[Weekly Review Protocol]]` every Friday.
+5. Run `[[Daily Study Session Template]]` for daily 20-minute execution.
+6. Log unresolved doubts in `[[Master Shubuhat Log]]` and apparent conflicts in `[[Conflict Register]]`.
+7. Run `[[Weekly Review Protocol]]` every Friday.
+8. Use `[[Obsidian Setup and Automation]]` for plugin/config best results.
 
 ## Naming Convention (Recommended)
 
@@ -57,3 +72,7 @@ It is structured as a practical vault system, not a raw PDF dump, so you can imm
 ## Note
 
 This vault version preserves the framework's intent while formatting it for fast use inside Obsidian (wiki links, checklists, reusable templates, and dashboard-oriented workflows).
+
+## Advanced Mode
+
+If you enable Dataview, the dashboard and subject indexes auto-populate from lesson note metadata (`type`, `subject`, `lesson_no`, `fahm`, `next_review`, `status`).

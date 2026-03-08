@@ -19,6 +19,7 @@ tags:
 3. [[Subject Modules]]
 4. [[Master Dashboard]]
 5. [[Master Shubuhat Log]] / [[Conflict Register]] / [[Khata Log]]
+6. [[Daily Study Session Template]] (daily non-negotiable)
 
 ---
 
@@ -36,10 +37,22 @@ tags:
 - [[Pre-Lesson Protocol]]
 - [[Core Lesson Template]]
 - [[Subject Modules]]
+- [[Daily Study Session Template]]
 - [[Sanad Registry]]
 - [[Arabic Technical Vocabulary Builder]]
 - [[Khilaf and Tahqiq Template]]
 - [[Weekly Review Protocol]]
+
+---
+
+## Subject Command Centers
+
+- [[00 Subjects Hub]]
+- [[Aqidah Index]]
+- [[Fiqh Index]]
+- [[Tafsir Index]]
+- [[Hadith Index]]
+- [[Adab Index]]
 
 ---
 
@@ -50,6 +63,9 @@ tags:
 - [[Study Engine and Anki System]]
 - [[Level Gates and 90-Day Challenge]]
 - [[Hybrid Paper-Digital Workflow]]
+- [[Obsidian Setup and Automation]]
+- [[Lesson Metadata Schema]]
+- [[Execution SOP]]
 
 ---
 

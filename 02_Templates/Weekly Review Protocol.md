@@ -1,9 +1,17 @@
 ---
-title: Weekly Review Protocol
-type: template
+title: Weekly Review - YYYY-MM-DD
+type: weekly-review
+template_name: weekly-review-template
 tags:
   - template
   - weekly-review
+week_start:
+week_end:
+reviews_completed: 0
+new_lessons_completed: 0
+open_shubuhat_count: 0
+open_conflicts_count: 0
+weekly_state: stable
 ---
 
 # Weekly Review Protocol (Friday, 20-30 min)
@@ -11,6 +19,7 @@ tags:
 ## Week Of
 
 - Date range:
+- Week focus:
 
 ## Lessons Covered
 
@@ -47,4 +56,19 @@ tags:
 - Shubuhat to resolve:
 - Conflict Register entries to work:
 - Anki cards to create:
+
+## Action Commitments (verify next Friday)
+
+| Commitment | Owner | Due Date | Verification |
+|---|---|---|---|
+|  | Me |  |  |
+|  | Me |  |  |
+|  | Me |  |  |
+
+## Weekly Outcome
+
+- Wins:
+- Losses:
+- Single biggest bottleneck:
+- One process fix for next week:
 

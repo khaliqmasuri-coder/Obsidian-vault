@@ -1,20 +1,46 @@
 ---
-title: Core Lesson Template
-type: template
+title: Lesson - [Subject] - LXX - [Title]
+type: lesson
+template_name: core-lesson-template
 tags:
   - template
   - lesson
+subject: aqidah
+level: madkhal
+lesson_no: 0
+teacher:
+text:
+study_date:
+mode: first-study
+fahm: 1
+status: active
+next_review:
+review_d1:
+review_d3:
+review_d7:
+review_d14:
+review_d30:
+shubuhat_refs: []
+conflict_refs: []
+anki_cards_created: 0
+hasb_al_nafs_done: false
 ---
 
 # Core Lesson Template
 
+> [!important]
+> Keep frontmatter updated after every review cycle.  
+> Dashboard automation depends on these fields.
+
 ## Lesson Header
 
 - **Subject:** Aqidah / Fiqh / Tafsir / Hadith / Adab
+- **Level:** Madkhal / Beginner / Intermediate / Advanced
 - **Lesson #:**
 - **Title:**
 - **Teacher:**
-- **Date:** 
+- **Text:**
+- **Date:**
 - **Mode:** First Study / Rapid Review / Deep Dive
 
 ## Ustadh Signals (capture live)
@@ -87,6 +113,8 @@ tags:
 - **Shubhah #1:** (add to [[Master Shubuhat Log]] as SH-XXX)
 - **Shubhah #2:** 
 - **Conflict flag:** (add to [[Conflict Register]] as CR-XXX)
+- **Linked SH refs:** `[]`
+- **Linked CR refs:** `[]`
 
 ## Rawabit (cross-discipline links)
 
@@ -103,6 +131,16 @@ tags:
 - [ ] Day 14: Scenarios 2 and 3 + Anki review
 - [ ] Day 30: monthly review + re-rate Fahm
 
+### Muraja'ah Review Log
+
+| Review Gate | Target Date | Completed Date | Result |
+|---|---|---|---|
+| Day 1 |  |  | Pass / Re-study |
+| Day 3 |  |  | Pass / Re-study |
+| Day 7 |  |  | Pass / Re-study |
+| Day 14 |  |  | Pass / Re-study |
+| Day 30 |  |  | Pass / Re-study |
+
 ## Hasb al-Nafs Checkpoint (choose one)
 
 - [ ] Teach it for 10 minutes (or voice record)
@@ -110,4 +148,12 @@ tags:
 - [ ] Create 5 Tier-1/Tier-2 Anki cards and pass 3x
 - [ ] Debate with study partner (take opposite side first)
 - [ ] Draw concept map from memory
+
+## Advancement Gate (must be true before next lesson)
+
+- [ ] I can recall all 5 Masa'il from memory.
+- [ ] I can deliver Speed Spine in 30 seconds.
+- [ ] I can answer at least Scenario 1 and 3 without notes.
+- [ ] Fahm is 3 or 4.
+- [ ] Any SH/CR raised has been logged.
 

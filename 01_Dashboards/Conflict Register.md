@@ -15,6 +15,21 @@ tags:
 2. **Usuli:** A ruling appears to conflict with a foundational principle.
 3. **Personal:** New evidence conflicts with your previously held position.
 
+## Fast Capture (Task Format for Dashboard Automation)
+
+- [ ] CR-001 Type:: textual New::  Earlier::  Resolution::  #conflict #open
+- [ ] CR-002 Type:: usuli New::  Earlier::  Resolution::  #conflict #open
+- [ ] CR-003 Type:: personal New::  Earlier::  Resolution::  #conflict #open
+
+## Open Conflicts (Auto - Dataview)
+
+```dataview
+TASK
+FROM "01_Dashboards"
+WHERE contains(tags, "#conflict") AND !completed
+SORT text ASC
+```
+
 ## Entries
 
 | Ref | New Lesson / Principle | Earlier Principle (lesson ref) | Type | Resolution | Status |

@@ -8,6 +8,8 @@ tags:
 
 # Subject Modules (append to Core Lesson Template)
 
+> For Intermediate/Advanced dispute analysis, append [[Khilaf and Tahqiq Template]] after the subject module.
+
 ## Aqidah Module
 
 ### Tawhid Coordinate
@@ -139,4 +141,12 @@ tags:
 - Root cause:
 - Practical 30-day plan:
 - Check-in date:
+
+---
+
+## Cross-Level Add-on
+
+- For **Intermediate**: include *Mahall al-Khilaf -> Positions -> Tarjih*.
+- For **Advanced**: include *Tahrir al-Niza' -> Steelmanning -> Tahqiq al-Rajih*.
+- Template: [[Khilaf and Tahqiq Template]]
 
