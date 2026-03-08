@@ -1,0 +1,13 @@
+{
+  "ruleConfigs": {
+    "YAML Timestamp": {
+      "enabled": true,
+      "date modified": true,
+      "date modified key": "modified_date",
+      "format": "YYYY-MM-DD"
+    },
+    "Trailing spaces": {
+      "enabled": true
+    }
+  }
+}
