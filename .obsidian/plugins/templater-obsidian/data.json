@@ -1,0 +1,19 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "02_Templates",
+  "trigger_on_file_creation": false,
+  "enable_system_commands": true,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "05_Lessons",
+      "template": "Core Lesson Template"
+    },
+    {
+      "folder": "06_Daily",
+      "template": "Daily Study Session Template"
+    }
+  ]
+}

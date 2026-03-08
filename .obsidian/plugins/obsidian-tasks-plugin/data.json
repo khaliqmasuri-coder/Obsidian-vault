@@ -1,0 +1,10 @@
+{
+  "globalFilter": "",
+  "setDoneDate": true,
+  "autoSuggestInEditor": true,
+  "recurrenceOnNextLine": false,
+  "useFilenameAsScheduledDate": false,
+  "removeTags": false,
+  "doneDateFormat": "YYYY-MM-DD",
+  "customStatuses": []
+}

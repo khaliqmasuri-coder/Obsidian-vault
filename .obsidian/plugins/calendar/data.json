@@ -1,0 +1,9 @@
+{
+  "weekStart": "Sunday",
+  "wordsPerDot": 250,
+  "showWeekNumber": false,
+  "autoChangeTheme": false,
+  "timestampFormat": "h:mm A",
+  "dailyNoteFormat": "YYYY-MM-DD",
+  "firstWeekOfYear": 1
+}

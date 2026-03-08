@@ -1,0 +1,11 @@
+{
+  "refreshEnabled": true,
+  "refreshInterval": 5000,
+  "defaultDateFormat": "yyyy-MM-dd",
+  "defaultDateTimeFormat": "yyyy-MM-dd HH:mm",
+  "maxRecursiveRenderDepth": 4,
+  "warnOnEmptyResult": false,
+  "taskCompletionTracking": true,
+  "enableInlineDataview": true,
+  "enableDataviewJs": false
+}

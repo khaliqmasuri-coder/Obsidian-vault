@@ -89,3 +89,10 @@ Pin these notes to tabs:
 3. [[Master Shubuhat Log]]
 4. [[Conflict Register]]
 
+## Plugin Quick Links
+
+- [Dataview](obsidian://show-plugin?id=dataview)
+- [Templater](obsidian://show-plugin?id=templater-obsidian)
+- [Calendar](obsidian://show-plugin?id=calendar)
+- [Tasks](obsidian://show-plugin?id=obsidian-tasks-plugin)
+

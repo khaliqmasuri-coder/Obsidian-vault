@@ -46,6 +46,10 @@ It is structured as a practical vault system, not a raw PDF dump, so you can imm
   - `Execution SOP.md`
 - `05_Lessons/`
   - `README.md` (store all lesson notes here)
+- `06_Daily/`
+  - `README.md` (daily execution notes)
+- `.obsidian/`
+  - preconfigured core + community plugin settings
 
 ## How To Use In Obsidian
 
@@ -60,6 +64,15 @@ It is structured as a practical vault system, not a raw PDF dump, so you can imm
 6. Log unresolved doubts in `[[Master Shubuhat Log]]` and apparent conflicts in `[[Conflict Register]]`.
 7. Run `[[Weekly Review Protocol]]` every Friday.
 8. Use `[[Obsidian Setup and Automation]]` for plugin/config best results.
+
+## Community Plugin Install Links
+
+- [Dataview](obsidian://show-plugin?id=dataview)
+- [Templater](obsidian://show-plugin?id=templater-obsidian)
+- [Calendar](obsidian://show-plugin?id=calendar)
+- [Tasks](obsidian://show-plugin?id=obsidian-tasks-plugin)
+
+This vault already includes `.obsidian` settings for these plugins.
 
 ## Naming Convention (Recommended)
 
